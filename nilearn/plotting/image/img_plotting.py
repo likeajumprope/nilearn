@@ -1947,7 +1947,7 @@ def plot_carpet(
     >>> data = rng.integers(low=0, high=100, size=(12, 12, 12, 100), dtype=np.int32)
     >>> mask = np.ones((12, 12, 12), dtype=bool)
     >>> img = Nifti1Image(data, affine=np.eye(4))
-    >>> mask_img = Nifti1Image(mask.astype(np.int8), affine=np.eye(4))  
+    >>> mask_img = Nifti1Image(mask.astype(np.int8), affine=np.eye(4))
 
     >>> display = plot_carpet(
     ...     img,
@@ -1956,7 +1956,7 @@ def plot_carpet(
     ... )
 
     >>> display.show()
-    
+
 
     References
     ----------
