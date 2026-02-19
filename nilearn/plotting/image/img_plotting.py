@@ -1942,7 +1942,7 @@ def plot_carpet(
     >>> from nilearn.plotting import plot_carpet
     >>> import matplotlib.pyplot as plt
     >>> adhd_dataset = fetch_adhd(n_subjects=1)
-    
+
     >>> display = plot_carpet(
     ...     adhd_dataset.func[0],
     ...     title="global patterns over time",
@@ -1952,7 +1952,7 @@ def plot_carpet(
     References
     ----------
     .. footbibliography::
-    
+
     """
     check_params(locals())
     img = check_niimg_4d(img, dtype="auto")
