@@ -27,7 +27,7 @@ Fixes
 Enhancements
 ------------
 
-- :bdg-success:`Doc` Add an example to the plot_carpet function (:gh:`6065 ` by `Johanna Bayer`_).
+- :bdg-success:`Doc` Add an example to the plot_carpet function (:gh:`6065` by `Johanna Bayer`_).
 
 - :bdg-success:`API` Add a public method to access the fitted mask of GLM instances (:gh:`5981` by `Rémi Gau`_).
 
