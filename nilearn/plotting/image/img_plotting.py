@@ -1944,7 +1944,8 @@ def plot_carpet(
     >>> import numpy as np
 
     >>> rng = np.random.default_rng(seed=42)
-    >>> data = rng.integers(low=0, high=100, size=(12, 12, 12, 100), dtype=np.int32)
+    >>> data = rng.integers(low=0, high=100,
+    ...                     size=(12, 12, 12, 100), dtype=np.int32)
     >>> mask = np.ones((12, 12, 12), dtype=bool)
     >>> img = Nifti1Image(data, affine=np.eye(4))
     >>> mask_img = Nifti1Image(mask.astype(np.int8), affine=np.eye(4))
