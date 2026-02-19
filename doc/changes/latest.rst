@@ -27,6 +27,8 @@ Fixes
 Enhancements
 ------------
 
+- :bdg-success:`Doc` Add an example to the plot_carpet function (:gh:`6065 ` by `Johanna Bayer`_).
+
 - :bdg-success:`API` Add a public method to access the fitted mask of GLM instances (:gh:`5981` by `Rémi Gau`_).
 
 - :bdg-dark:`Code` Added ``screening_n_features`` parameter to :class:`~nilearn.decoding.Decoder`,  :class:`~nilearn.decoding.DecoderRegressor`, :class:`~nilearn.decoding.FREMClassifier`,  and :class:`~nilearn.decoding.FREMRegressor`.
